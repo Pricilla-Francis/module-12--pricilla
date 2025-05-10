@@ -36,6 +36,42 @@ const Contact = () => {
       <button type="submit">Send</button>
     </form>
   );
+
+    return (
+      <form className="max-w-xl mx-auto p-6 space-y-4 bg-white shadow-md rounded">
+        <input
+          name="name"
+          placeholder="Name"
+          onBlur={handleBlur}
+          onChange={handleChange}
+          className="w-full p-2 border rounded"
+        />
+        {errors.name && <p className="text-red-600 text-sm">{errors.name}</p>}
+  
+        <input
+          name="email"
+          placeholder="Email"
+          onBlur={handleBlur}
+          onChange={handleChange}
+          className="w-full p-2 border rounded"
+        />
+        {errors.email && <p className="text-red-600 text-sm">{errors.email}</p>}
+  
+        <textarea
+          name="message"
+          placeholder="Message"
+          onBlur={handleBlur}
+          onChange={handleChange}
+          className="w-full p-2 border rounded"
+        />
+        {errors.message && <p className="text-red-600 text-sm">{errors.message}</p>}
+  
+        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Send
+        </button>
+      </form>
+    );
+  
 };
 
 export default Contact;
