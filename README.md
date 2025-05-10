@@ -1,7 +1,9 @@
 # Pricilla Francis React Portfolio
 BY: Prcilla Francis
 https://github.com/Pricilla-Francis/module-12--pricilla.git
+https://module-12-pricilla.onrender.com/about
 
+![alt text](module12-1.png)
 
 
 Being a web developer means being part of a community. You'll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
